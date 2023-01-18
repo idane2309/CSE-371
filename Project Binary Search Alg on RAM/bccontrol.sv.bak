@@ -1,0 +1,7 @@
+module bccontrol ();
+	input logic clk, start, reset;
+	input logic [7:0] a_val;
+	output logic result_z, a_eq_0, a0;
+   output logic loadA, done, rsA, result_incr;
+	 
+	

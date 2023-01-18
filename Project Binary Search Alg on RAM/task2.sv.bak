@@ -1,0 +1,3 @@
+module task2 (clk, reset, a, s, done, loc);
+	input logic clk, reset;
+	

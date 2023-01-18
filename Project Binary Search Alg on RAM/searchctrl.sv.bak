@@ -1,0 +1,3 @@
+module searchctrl ();
+	input logic clk, reset, s, c_0, mem_g, mem_l;
+	output logic done, found, c_d_2, incr_i, decr_i, load_mem, init;
